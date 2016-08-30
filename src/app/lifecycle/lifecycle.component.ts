@@ -33,7 +33,8 @@ export class LifecycleComponent implements
  AfterContentChecked,
  AfterViewInit,
  AfterViewChecked,
- OnDestroy {
+ OnDestroy 
+ {
 
   constructor() { }
   @Input() bindable = 1000;
